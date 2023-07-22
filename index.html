@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hackathon Idea Generator</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik&display=swap">
+  <link rel="stylesheet" href="style.css">
+  <!-- Add Font Awesome CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    integrity="sha512-Djouu2wtLNExBjsy+e5FV40ARPKvt3u7KtrjvDq8gH+3DpVpCJkK4HXU+Glm6K+bplNbcJzXPLz6pMhHdFFw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <div class="container">
+    <!-- Chat-like container -->
+    <div class="chat-container">
+      <!-- Icon above the heading -->
+      <div class="icon-container">
+        <img src="./image/solar-energy.png" alt="Icon" width="48" height="48">
+      </div>
+      <!-- Chat header with creative heading and subheading -->
+      <div class="chat-header">
+        <h1> < Creative Project Ideas > </Creative></h1>
+        <p class="subheading">Overcome ideation blocks with our creative project ideas! 💥</p>
+      </div>
+      <!-- Chat body contains the description and form sections -->
+      <div class="chat-body">
+        <!-- Short description of what the project does -->
+        <p class="description">Are you looking for exciting ideas for your hackathon project? Use our generator to get
+          started! 🧚🏻 </p>
+            <div class="section">
+                <h3><label for="ideaText">Generated Idea:</label></h3>
+              
+                <div class="form-group">
+                  <input type="text" id="ideaText" name="ideaText" readonly placeholder="Project idea 👾">
+             
+              <!-- Description section -->
+
+            <textarea id="description" name="description" rows="10" cols="100" readonly placeholder="A brief description for your projects 🙌"></textarea>
+        </div>
+    
+            <!-- Buttons to generate and reset the idea -->
+            <div class="form-buttons">
+              <button type="button" id="generateButton" onclick="generateIdea()">Generate Idea</button>
+              <button type="reset" id="resetButton" onclick="resetForm()">Reset</button>
+            </div>
+          </div>
+        <!-- </form> -->
+        <!-- Designated space to display a confirmation message after submission -->
+        <div id="confirmationMessage"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
