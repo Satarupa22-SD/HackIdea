@@ -12,7 +12,7 @@ The Hackathon Idea Generator is a web application that helps participants overco
 
 ## Demo
 
-[Live Demo](https://satarupa22-sd.github.io/Hackidea/)
+[Live Demo][https://satarupa22-sd.github.io/Hackidea/]
 
 ## How to Use
 
