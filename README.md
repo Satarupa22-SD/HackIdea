@@ -12,11 +12,11 @@ The Hackathon Idea Generator is a web application that helps participants overco
 
 ## Demo
 
-[Live Demo](https://satarupa22-sd.github.io/Hackidea/)
+[Live Demo](https://hackideaio.netlify.app)
 
 ## How to Use
 
-1. Visit the live demo link [here](https://satarupa22-sd.github.io/Hackidea/).
+1. Visit the live demo link [here](https://hackideaio.netlify.app).
 2. Click on the "Generate Idea" button to get a random project idea with a corresponding description.
 3. To start ideation again, click the "Reset" button to clear the generated idea and the confirmation message.
 
